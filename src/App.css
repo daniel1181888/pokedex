@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+body {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://wallup.net/wp-content/uploads/2016/05/24/143432-nature-Pokemon.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.maindoos{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pokestats{
+  margin-top: 100px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 350px;
+  height: 700px;
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/694/543/desktop-wallpaper-pokedex-template-by-hatirem-pokemon-pokedex-background-thumbnail.jpg");
+  flex-direction: column;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.pokelist{
+  display:flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#poketitle{
+  width: 500px;
+  height: fit-content;
 }
+
+li button{
+  background-color: white;
+}
+
+li button.checked{
+  background-color: gold;
+}
+
